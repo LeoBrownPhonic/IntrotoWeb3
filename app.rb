@@ -16,6 +16,6 @@ end
 
 get "/named-cat" do
   p params
-  @name_generator = params[:name]
+  @name = params[:name]
   erb(:index)
 end
